@@ -1,0 +1,44 @@
+/* color: #e98208;   -  just like orange
+   color: #212529    - background-color
+  font-size: 60px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ */
+
+ :root {
+  --text-color: #e98208;
+  --bg-dark: #35383b;
+ }
+
+
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+ .container {
+  color: #e98208;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--bg-dark);
+  font-size: 40px;
+  text-align: center;
+ }
+
+ .content {
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+  letter-spacing: 0.4rem;
+ }
+
+ .content > div {
+  margin: 10px;
+ }
+
+ .logo img{
+  margin-top: 50px;
+  width: 200px;
+  height: 50px;
+ }
